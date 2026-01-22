@@ -1,0 +1,22 @@
+{
+    "filetype": "C74Snapshot",
+    "version": 2,
+    "minorversion": 0,
+    "name": "Tape MELLO-FI",
+    "origin": "Tape MELLO-FI.auinfo",
+    "type": "AudioUnit",
+    "subtype": "MidiEffect",
+    "embed": 0,
+    "snapshot": {
+        "pluginname": "Tape MELLO-FI.auinfo",
+        "plugindisplayname": "Tape MELLO-FI",
+        "pluginsavedname": "",
+        "pluginsaveduniqueid": 1415662949,
+        "version": 1,
+        "isbank": 0,
+        "isbase64": 1,
+        "sliderorder": [],
+        "slidervisibility": [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+        "blob": "2711.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvF..............vB...P.8Lh0vC...HvO.B......C7iFe5K....A+.H......TvO.B......F7iVbvJ...vA+vPR6B...ffONm8E....I7Cf......fB.........r..........L7iPVs....PC+........3..........O7Cf.......H+........DxO........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.....RyPCNDQTwDkLQ+.DQASVSQWYxU1afjjaQ+fDZMEckIWYuAxS0Q2SQffKxHCHyUlboEFaooWXzk1atoiNgI2XnklckARLv.BLfbCHv.xMfDiLfvzasXTZfDUcoYWYxAxMfXTXiQ2axkGH2XCHw.CHLkFa4AhRuIGY4AxMfTkaq41a24FHv.BLf.CHv.RLf.CHw.BHfDiMyjCLz.yLzfCHw.CHw3BMt.iK0PiMv.BLf.CHv.BLf.CHv.BLf.CHf.CHv.RMf.CHv.BLfDSMfLDZgIWXiQWYxk1bzk1XyARM1.xPnElbgMFckIWZyQWZiMGKDk1bz8lbzUFY6bTYtIWYywBSuYVZ6LEc4wVYywBQ0MGc4wGUnkla6.RL1.xSxk1Yo4VXrAUXislSg0VYfDyLfXTZtEFafXTXiQ2axkGHwfCHOIWZmklagwFTxU1bkQmSg0VYfDiLfvzasXTZfDUcoYWYxAxMfLUchQWdvUFHz.BUgAWYfPCHTkGbkARMf7DcnUlbf.CHv.BLfbCHv.BLf.CHv.BLf.CHxjCHv.BLf.CH2.hPu81bz8jafDCH1.hP4AWXyMGHv.RNfPTZyQGQxklckABLt.yL4jSN4jCLx.RMfPjboYWYf.CH1.BQxk2UkQGHv3RMfDiLfTjagIFakABQxklckARLfDCMfTjagIFakAhQrUGczUlbfDCHwDCHE4VXhwVYfP0atUFHw.BNfXTZrQWYx8jafDCHwfCHFkFazUlbSQWXmU1WA01a04Fcf.iK0.RLv.hQowFckIGUu4VYf.iK1.yL4jSN4bCH2.hQrUGczUlbf.CHwPCHFwVczQWYx8UPs8VctQGHv3BN0HCHwHCHMkDQIAxPnElatUFaf.CHwTCHMU1Xn4zaoMWYA01a04FcfDCH0.hSuk1bkABLfDSLf3zaoMWYA01a04FcfDCHwLCHN8VZyU1WDkmag0VZiABLfDSLf7TczAWczAxQgklaf.iK2TSNwHSMzDCHwHCHSQWYxU1afbUZjQGZf.CHwLCHTEFbkAxXgQ2Xn0RcvARLfDiMfPUXvU1Tz8FbeITXxMEcuAGHv.RL4.BUgAWYSQ2av8EUgAWYSQ2av8jaf.CHz.BUu4VYf.iK0.RNfP0atU1WHAGSvABLfDCLfXUXxkVXzk1atMGHv.xLfb0a2ABLtTCHw.CHW81ceETauUmazABLtTCM3.CLv.CMfDSMfb0a28EQkclbgQVXzk1atABLtPCLz.CLv.SLfPyLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHSNf70WSQUPTUzWeIUQSUjTVUDQe8USIQTRC8jSFkzQfjCNfvyO30FafXWYxMWZu4VOhDiKvHBHk41XuQVZtcVOhTGcl0BNh7iOJvibu8Fct8FYk4iBIvSaoQVZi8lalk1Yf3VXsUVOhHBHlE1Xz8lb40iHvHxK9n.OuH2auQmauQVY9nfBfHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLfDiBRPUXMUFD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEf1A7c.gGv3AXd.nGf7ATu..nfLJbiB4nfO........BD..........X...................JbD"
+    }
+}
