@@ -14,6 +14,53 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-59",
+                    "maxclass": "newobj",
+                    "numinlets": 5,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1005.59, 1129.45, 145.0, 24.0 ],
+                    "text": "zmap -127 127 0. 1."
+                }
+            },
+            {
+                "box": {
+                    "appearance": 3,
+                    "id": "obj-51",
+                    "maxclass": "live.dial",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1006.69, 1060.7, 50.0, 63.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 256.0, 270.0, 50.0, 63.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "live.dial",
+                            "parameter_mmin": -127.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "pan",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 6
+                        }
+                    },
+                    "varname": "live.dial"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-50",
+                    "maxclass": "newobj",
+                    "numinlets": 2,
+                    "numoutlets": 1,
+                    "outlettype": [ "multichannelsignal" ],
+                    "patching_rect": [ 911.75, 1163.8, 102.0, 24.0 ],
+                    "text": "mc.mixdown~ 2"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-26",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -1088,6 +1135,7 @@
                         }
                     },
                     "saved_object_attributes": {
+                        "bypass": 1,
                         "parameter_enable": 1,
                         "parameter_mappable": 0
                     },
@@ -1198,6 +1246,7 @@
                         }
                     },
                     "saved_object_attributes": {
+                        "bypass": 1,
                         "parameter_enable": 1,
                         "parameter_mappable": 0
                     },
@@ -1713,7 +1762,7 @@
                     "presentation": 1,
                     "presentation_rect": [ 158.0152781009674, 103.81680107116699, 18.0, 50.0 ],
                     "size": 3,
-                    "value": 2
+                    "value": 1
                 }
             },
             {
@@ -1893,7 +1942,7 @@
                     "maxclass": "mc.ezdac~",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1030.0000245571136, 824.2857339382172, 45.0, 45.0 ]
+                    "patching_rect": [ 933.25, 1251.7810977101326, 45.0, 45.0 ]
                 }
             },
             {
@@ -2277,7 +2326,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-132", 0 ],
+                    "destination": [ "obj-50", 0 ],
                     "source": [ "obj-123", 0 ]
                 }
             },
@@ -2307,7 +2356,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-133", 0 ],
+                    "destination": [ "obj-50", 0 ],
                     "source": [ "obj-128", 1 ]
                 }
             },
@@ -2509,7 +2558,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-62", 0 ],
+                    "destination": [ "obj-50", 0 ],
                     "source": [ "obj-24", 0 ]
                 }
             },
@@ -2698,6 +2747,18 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-85", 0 ],
+                    "source": [ "obj-50", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-59", 0 ],
+                    "source": [ "obj-51", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-11", 0 ],
                     "order": 1,
                     "source": [ "obj-54", 6 ]
@@ -2746,6 +2807,12 @@
                 "patchline": {
                     "destination": [ "obj-61", 0 ],
                     "source": [ "obj-58", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-50", 1 ],
+                    "source": [ "obj-59", 0 ]
                 }
             },
             {
@@ -3030,7 +3097,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-85", 0 ],
+                    "destination": [ "obj-50", 0 ],
                     "source": [ "obj-98", 0 ]
                 }
             },
@@ -3050,6 +3117,7 @@
             "obj-46": [ "mc.live.gain~", "2/3-rev", 0 ],
             "obj-47": [ "mc.live.gain~[1]", "2/2-noise", 0 ],
             "obj-49": [ "mc.live.gain~[2]", "2/1-gran", 0 ],
+            "obj-51": [ "live.dial", "pan", 0 ],
             "obj-58": [ "live.slider", "cam-sens", 0 ],
             "obj-64": [ "vst~[1]", "vst~[1]", 0 ],
             "obj-90": [ "vst~[3]", "vst~[1]", 0 ],
