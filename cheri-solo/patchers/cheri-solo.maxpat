@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-26",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "", "int", "int" ],
+                    "patching_rect": [ 222.0, 371.0, 52.0, 24.0 ],
+                    "text": "change"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-24",
                     "lastchannelcount": 2,
                     "maxclass": "mc.live.gain~",
@@ -1077,7 +1088,6 @@
                         }
                     },
                     "saved_object_attributes": {
-                        "bypass": 1,
                         "parameter_enable": 1,
                         "parameter_mappable": 0
                     },
@@ -1188,7 +1198,6 @@
                         }
                     },
                     "saved_object_attributes": {
-                        "bypass": 1,
                         "parameter_enable": 1,
                         "parameter_mappable": 0
                     },
@@ -1704,7 +1713,7 @@
                     "presentation": 1,
                     "presentation_rect": [ 158.0152781009674, 103.81680107116699, 18.0, 50.0 ],
                     "size": 3,
-                    "value": 0
+                    "value": 2
                 }
             },
             {
@@ -2470,22 +2479,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-119", 0 ],
-                    "order": 0,
-                    "source": [ "obj-20", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-27", 0 ],
-                    "order": 2,
-                    "source": [ "obj-20", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-7", 0 ],
-                    "order": 1,
+                    "destination": [ "obj-26", 0 ],
                     "source": [ "obj-20", 0 ]
                 }
             },
@@ -2517,6 +2511,29 @@
                 "patchline": {
                     "destination": [ "obj-62", 0 ],
                     "source": [ "obj-24", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-119", 0 ],
+                    "order": 0,
+                    "source": [ "obj-26", 0 ],
+                    "watchpoint_flags": 5,
+                    "watchpoint_id": 206
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-27", 0 ],
+                    "order": 2,
+                    "source": [ "obj-26", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-7", 0 ],
+                    "order": 1,
+                    "source": [ "obj-26", 0 ]
                 }
             },
             {
@@ -3037,14 +3054,6 @@
             "obj-64": [ "vst~[1]", "vst~[1]", 0 ],
             "obj-90": [ "vst~[3]", "vst~[1]", 0 ],
             "obj-92": [ "vst~[4]", "vst~[4]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
