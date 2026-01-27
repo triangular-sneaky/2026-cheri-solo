@@ -1664,7 +1664,7 @@
                     "patching_rect": [ 242.0, 256.0, 150.0, 54.0 ],
                     "presentation": 1,
                     "presentation_linecount": 3,
-                    "presentation_rect": [ 178.0, 111.0, 150.0, 54.0 ],
+                    "presentation_rect": [ 177.86260771751404, 102.29008340835571, 150.0, 54.0 ],
                     "text": "- record\n- playback\n- effect"
                 }
             },
@@ -1702,7 +1702,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 222.0, 258.0, 18.0, 50.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 158.0, 113.0, 18.0, 50.0 ],
+                    "presentation_rect": [ 158.0152781009674, 103.81680107116699, 18.0, 50.0 ],
                     "size": 3,
                     "value": 0
                 }
@@ -1951,7 +1951,9 @@
                     "numinlets": 5,
                     "numoutlets": 6,
                     "outlettype": [ "float", "float", "float", "float", "list", "" ],
-                    "patching_rect": [ 695.0, 36.0, 256.0, 64.0 ]
+                    "patching_rect": [ 695.0, 36.0, 256.0, 64.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 46.0, 154.0, 256.0, 64.0 ]
                 }
             },
             {
