@@ -122,11 +122,13 @@
                     "patching_rect": [ 59.11, 1025.6, 124.0, 24.0 ],
                     "restore": {
                         "cam-sensitivity": [ 25.568092335896555 ],
+                        "effect-duration": [ 30000 ],
                         "gain-1": [ -17.842798882620762 ],
                         "gain-2-1": [ 0.0 ],
                         "gain-2-2": [ 3.128608923884539 ],
                         "gain-2-3": [ -5.62530481064411 ],
                         "output-pan": [ -68.0 ],
+                        "record-cycle-duration": [ 10000 ],
                         "vst~": [
                             {
                                 "filetype": "C74Snapshot",
@@ -456,9 +458,9 @@
                     "maxclass": "newobj",
                     "numinlets": 2,
                     "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ 1863.9343729019165, 72.8571445941925, 29.5, 24.0 ],
-                    "text": "0"
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 1863.9343729019165, 72.8571445941925, 66.0, 24.0 ],
+                    "text": "random 3"
                 }
             },
             {
@@ -1748,7 +1750,8 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 727.0, 338.0, 65.0, 24.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 158.0, 56.0, 65.0, 24.0 ]
+                    "presentation_rect": [ 158.0, 56.0, 65.0, 24.0 ],
+                    "varname": "record-cycle-duration"
                 }
             },
             {
@@ -1830,7 +1833,8 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 701.25, 177.6, 63.75, 24.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 156.0, 20.0, 54.0, 24.0 ]
+                    "presentation_rect": [ 156.0, 20.0, 54.0, 24.0 ],
+                    "varname": "effect-duration"
                 }
             },
             {
