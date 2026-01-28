@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-38",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 73.41, 94.99, 109.0, 24.0 ],
+                    "text": "loadmess start"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-142",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -2972,6 +2983,12 @@
                 "patchline": {
                     "destination": [ "obj-36", 0 ],
                     "source": [ "obj-37", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-2", 0 ],
+                    "source": [ "obj-38", 0 ]
                 }
             },
             {
