@@ -42,6 +42,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 75.09488996863365, 1151.0, 196.0, 24.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 393.0, 51.0, 196.0, 24.0 ],
                     "text": "read mainui.json, recall 1"
                 }
             },
@@ -2023,7 +2025,7 @@
                     "presentation": 1,
                     "presentation_rect": [ 158.0152781009674, 103.81680107116699, 18.0, 50.0 ],
                     "size": 3,
-                    "value": 1
+                    "value": 0
                 }
             },
             {
@@ -2416,6 +2418,8 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 59.11, 1051.6, 196.0, 24.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 393.0, 20.0, 196.0, 24.0 ],
                     "text": "store 1, write mainui.json"
                 }
             }
@@ -3451,6 +3455,14 @@
             "obj-64": [ "vst~[1]", "vst~[1]", 0 ],
             "obj-90": [ "vst~[3]", "vst~[1]", 0 ],
             "obj-92": [ "vst~[4]", "vst~[4]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
